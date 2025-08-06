@@ -1,0 +1,104 @@
+    @media(max-width:630px) {
+      .main {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .title {
+        display: none;
+      }
+
+      .paragraph {
+        display: none;
+      }
+
+      .img {
+        display: none;
+      }
+
+
+      .titleMobile {
+        display: block;
+        color: white;
+        font-size: 2rem;
+      }
+    }
+
+
+    .main {
+
+      display: flex;
+      justify-content: space-between;
+
+
+      height: auto;
+      width: 100%;
+      margin-top: 10vh;
+      margin-bottom: 8.9vh;
+    }
+
+    .imgCont {
+      width: clamp(400px, 30vw, 40vw);
+      margin-left: 10.5vw;
+    }
+
+    .img {
+
+
+      width: clamp(100px, 20vw, 45vw);
+      height: auto;
+      border-radius: clamp(12px, 1vw, 1.1vw);
+      cursor: pointer;
+
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+      transition: all 0.2s;
+    }
+
+    .img:hover {
+      transform: scale(1.1);
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+
+    .text {
+      margin-right: 10.5vw;
+      margin-left: 4vw;
+      margin-top: 2vw;
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .title {
+      margin-right: 2vw;
+      color: white;
+      font-size: clamp(25px, 2.5vw, 10vw);
+    }
+
+    .paragraph {
+      color: white;
+
+      margin-top: 2vw;
+      font-size: clamp(14.36px, 1.62vw, 10vw);
+
+    }
+
+    #button {
+      margin-top: 1vw;
+      margin-bottom: 1vw;
+      width: 16vw;
+      height: 4vw;
+      border-radius: 1vw;
+      border: 3px dashed rgba(255, 255, 255, 0.896);
+      background-color: none;
+
+      background: none;
+      font-size: 2rem;
+      cursor: pointer;
+      color: rgba(255, 255, 255, 0.896);
+    }
+
+    .titleMobile {
+      display: none;
+    }
