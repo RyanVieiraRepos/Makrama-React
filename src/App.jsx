@@ -1,11 +1,13 @@
 import { useState } from 'react'
-import Cad from './Pages/Cad/Cad'
-import Cart from './Pages/Cart/Cart'
+import Cad from './Pages/Cad/Cad.jsx'
+import Cart from './Pages/Cart/Cart.jsx'
 import Login from './Pages/Login/Login'
 import Products from './Pages/Products/Products'
 import sobMedida from './Pages/sobMedida/sobMedida'
 import Home from './Pages/Home/Home'
-import './App.css'
+import Header from './Header.jsx'
+import Footer from './Footer.jsx'
+
 
 function App() {
 
@@ -23,7 +25,7 @@ function App() {
       descricao: '',
       preco: ''
     },
-    produto3:{
+    produto3: {
       foto: './',
       nome: './',
       descricao: '',
@@ -35,17 +37,17 @@ function App() {
 
   return (
     <>
-      <div id='0'>
-        <Header />
-      </div>
 
-      <div id='1'>
-        <Home />
-      </div>
+      <Header />
 
-      <div id='2'>
-        <Footer />
-      </div>
+
+
+      <Cart />
+
+
+
+      <Footer />
+
     </>
   )
 }
