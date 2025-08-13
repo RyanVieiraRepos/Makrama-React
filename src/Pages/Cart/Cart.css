@@ -1,37 +1,69 @@
+@media(max-width: 1123px){
+    .cart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }.list{
+        width: 47vw;
+        margin-bottom: 5vw;
+        margin-right: 0px;
+        align-self: center;
+    }.resume{
+        align-self: center;
+    }.price strong{
+        padding-right: 20vwvw;
+    }
+}
+
+
 .cart {
+    border-radius: 1vw;
+
     margin-left: 10.5vw;
     margin-right: 10.5vw;
-    border-radius: 1vw;
-    display: flex;
     margin-top: 5vw;
     margin-bottom: 20vw;
 
-
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    
 }
-
+   
 
 .list {
-    width: 60vw;
-    border: white 2px solid;
+   
+    width: 45vw;
     margin-right: 3vw;
     border-radius: 0.3vw;
+    border: white 2px solid;
+    
     display: flex;
-    height: 20vw;
-
+    flex-direction: column;
 }
 
+
+.header{
+display: flex;
+border-bottom: 1px solid white;
+margin-bottom: 2vw;
+width: 100%;
+
+}
 .product {
     display: flex;
     flex-direction: column;
-    width: 25.9vw;
-
+    
+    width: 30vw;
 }
 
 .product strong {
     color: white;
     font-size: 1.2rem;
     padding: 0.4vw;
-    border-bottom: 1px solid white;
+    
+    
 
 }
 
@@ -41,21 +73,24 @@
 .amount {
     display: flex;
     flex-direction: column;
-    width: 11.3vw;
+    
+
+    
 }
 
 .amount strong {
     color: white;
     font-size: 1.2rem;
     padding: 0.4vw;
-    border-bottom: 1px solid white;
+    width:8vw ;
+    
 
 }
 
 .price {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid white;
+    align-items: center;
 
 }
 
@@ -63,8 +98,61 @@
     color: white;
     font-size: 1.2rem;
     padding: 0.4vw;
-    border-bottom: 1px solid white;
+    width:2.4vw;
+   
 }
+
+.display{
+    width: 100%;
+    display: flex;
+    
+}#a{
+width: 32vw;
+margin-left: 0.3vw;
+}#b{
+    width: 7.6vw;
+}
+
+.icon{
+    margin-left: 1.4vw;
+    width: 3vw;
+    height: 2vw;
+    
+    cursor: pointer;
+    
+    border-radius: 50vw;
+}.BsFillTrashFill :hover{
+  transform: scale(1.1);
+}
+
+.frete{
+    margin-top: 2vw;
+}.frete input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    caret: white;
+    color: white;
+}.frete input::placeholder{
+    color: white;
+}.frete input:focus{
+    border: none;
+    outline:none;
+    border-bottom: 2px solid white;
+}
+.frete button{
+    margin-left: 1vw;
+    border-radius: 0.3vw;
+    width: 7vw;
+    border: 2px solid white;
+    background:none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+
 
 
 
@@ -72,20 +160,82 @@
 
 
 .resume {
-    width: 40vw;
+    width: 20vw;
     border: white 2px solid;
+    border-radius: 0.3vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
+}.resume strong{
+    color: white;
+    
 }
 
-.resumeTitle {
-    color: white;
-    font-size: 1.5rem;
-    padding-top: 0.4vw;
+
+.title1{
     border-bottom: 1px solid white;
-    padding-left: 12.4vw;
-    padding-right: 12.4vw;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.titleStrong {
+    color: white;
+    font-size: 1.9rem;
+    padding-top: 0.4vw;
     padding-bottom: 0.3vw;
+}
+
+
+.subTotal{
+display: flex;
+margin-top: 1vw;
+margin-bottom: 1vw;
+}
+.subTotal strong{
+    font-size: 1.3rem;
+    margin-right: 4vw;
+    
+}
+
+.total{
+ background-color: rgba(209, 166, 106, 0.896);
+ width: 100%;
+ height: 2vw;
+
+ margin-bottom: 1vw;
+
+ align-items: center;
+ justify-content: center;
+ display: flex;
+}.total strong{
+    font-size: 1.4rem;
+    margin-right: 6vw;
+}
+
+.resumeTotal{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top:1vw;
+}.resumeTotal strong{
+    font-size: 1.2rem;
+}.discount{
+    margin-bottom:2vw;
+}
+
+.button{
+    margin-top: 0.3vw;
+    background-color: white;
+    height: 3vw;
+    border-radius: 0.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}.button strong{
+    margin-left: 0.3vw;
 }

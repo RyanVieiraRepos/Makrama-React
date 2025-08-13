@@ -1,0 +1,29 @@
+.section{
+    display: flex;
+    flex-direction:column;
+    
+    width: 18vw;
+    height: 22vw;
+
+    margin-bottom: 2vw;
+}.section img{
+
+}.cardImg{
+    background-color: rgb(255, 255, 255);
+    height: 20vw;
+}
+
+
+.section strong:nth-of-type(1){
+    color: white;
+    margin-top: 1vw;
+    font-size: 1.3rem;
+}.section strong:nth-of-type(2){
+    color: rgb(255, 248, 219);
+    
+    font-size: 1rem;
+}.section strong:nth-of-type(3){
+    color: white;
+    margin-top: 1vw;
+    font-size: 1.3rem;
+}
