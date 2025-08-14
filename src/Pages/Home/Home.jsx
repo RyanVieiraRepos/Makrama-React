@@ -1,11 +1,14 @@
 import './Home.css'
 
+
+
 function Home() {
     return (
         <>
 
 
-            <main className="main">
+
+            <main className="main1">
 
                 <div className="imgCont" id="imgcont">
                     <img
@@ -37,9 +40,9 @@ function Home() {
                         detalhe, valorizando o feito à mão e conectando o lar com a beleza do artesanal.
                     </strong>
 
-                    <button type="button" id="button">
+                    <a className="homeButton" id="button" href='./Produtos'>
                         Navegar
-                    </button>
+                    </a>
                 </div>
 
             </main>

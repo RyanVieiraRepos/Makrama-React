@@ -2,8 +2,8 @@ import './Cad.css'
 
 function Cad() {
     return (
-
         <>
+            
             <div className="main">
                 <div className="mainCadastro">
                     <form action="/" method="POST">
@@ -53,6 +53,8 @@ function Cad() {
                     </form>
                 </div>
             </div>
+            
+
 
         </>
     )

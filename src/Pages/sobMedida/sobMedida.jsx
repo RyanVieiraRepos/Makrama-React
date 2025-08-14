@@ -1,8 +1,17 @@
-import './sobMedida.css'
+import './SobMedida.css'
 
-function sobMedida() {
+
+
+function SobMedida() {
+
+    return (
+
+        <>
+           
+        </>
+    )
 
 }
 
 
-export default sobMedida
+export default SobMedida
