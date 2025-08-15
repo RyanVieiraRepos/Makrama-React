@@ -1,20 +1,25 @@
 .main {
     justify-content: space-between;
     align-items: center;
+    display: flex;
 
     margin-left: 10.5vw;
     margin-right: 10.5vw;
-    width: 100%;
-    margin-bottom: 10vh;
+    margin-top: 2vw;
+
 }
+
 
 .mainCadastro {
     width: 40vw;
     margin-left: 18vw;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 4vw;
+    padding-right: 1.6vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
     border-radius: 1vw;
-
+    margin-bottom: 8.5vw;
 
 
 
@@ -71,7 +76,7 @@
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
-    width: 18vw;
+    width: 16.7vw;
     font-size: 1.1rem;
     font-family: Merriweather;
     color: #f5f5f5;
@@ -108,7 +113,7 @@
     background: none;
     border-radius: 0.3vw;
     border: 1px solid white;
-    width: 18vw;
+    width: 17.2vw;
     text-align: center;
     padding: 0.3vw;
 

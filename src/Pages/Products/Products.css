@@ -1,8 +1,13 @@
-.flex{
+.flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 10.5vw;
     margin-right: 10.5vw;
     margin-top: 7vw;
+    margin-bottom: 5vw;
+}
+
+.link {
+    text-decoration: none;
 }

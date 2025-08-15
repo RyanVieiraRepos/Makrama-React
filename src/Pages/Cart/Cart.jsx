@@ -95,7 +95,7 @@ function Cart() {   // os valores utilizados serão tragos do componente produto
 
 
                     <div className='button' id='btn'>
-                        <BsCartCheck />
+                        <BsCartCheck color='' />
                         <strong>
                             Finalizar Pedido
                         </strong>

@@ -7,14 +7,12 @@ function Header() {
         <>
             <div className="headerContainer">
 
-                <strong className="logo">Makrama</strong>
+                <a className="logo" href='/'>Makrama</a>
 
                 <div className="navContainer">
-                    <a className="nav" href="./">Home</a>
-                    <a className="nav" href="./Produtos">Produtos</a>
-                    <a className="nav" href="./SobMedida">
-                        Sob medida
-                    </a>
+                    <a className="nav" href="/">Home</a>
+                    <a className="nav" href="Produtos">Produtos</a>
+                    <a className="nav" href="SobMedida">Sob medida</a>
                 </div>
 
                 <div className="loginNcart">
@@ -29,7 +27,7 @@ function Header() {
                         </div>
                     </Link>
 
-                    <Link to='./Login'>
+                    <Link to='Login'>
                         <div className="loginContainer" id="loginContainer">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +43,7 @@ function Header() {
                     </Link>
                 </div>
 
-            </div>
+            </div >
 
         </>
     )

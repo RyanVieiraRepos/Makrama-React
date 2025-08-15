@@ -1,6 +1,7 @@
 import './Products.css'
 import Card from './Card'
 
+import { Link } from 'react-router-dom'
 
 
 function Products() {
@@ -14,7 +15,7 @@ function Products() {
       }
       const produto2 = {
             foto: './produtos/enfeite2.jpeg',
-            nome: 'Macrame Pendurado',
+            nome: 'Ornamento Suspenso',
             descricao: 'Enfeite Vermelho',
             preco: 'R$29,90'
       }
@@ -32,16 +33,16 @@ function Products() {
       }
 
 
-      const produtos = [produto1, produto2, produto3, produto4]
+
 
       return (
             <>
 
                   <div className='flex'>
-                        <Card info={produto1} />
-                        <Card />
-                        <Card />
-                        <Card />
+                        <Link className='link' to='FolhasArtesanais'> <Card info={produto1} /></Link>
+                        <Link className='link' to='OrnamentoSuspenso'> <Card info={produto2} /></Link>
+                        <Link className='link' to='SuporteParaVaso'> <Card info={produto3} /></Link>
+                        <Link className='link' to='SuporteParaVasoPequeno'> <Card info={produto4} /></Link>
 
 
                   </div>

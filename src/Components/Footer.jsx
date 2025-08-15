@@ -5,6 +5,10 @@ function Footer() {
 
     return (
         <>
+
+            <div className='line'>
+            </div>
+
             <div className="footer">
 
                 <strong className="logostrong">Makrama</strong>

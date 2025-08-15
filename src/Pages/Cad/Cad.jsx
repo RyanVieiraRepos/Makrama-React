@@ -1,11 +1,14 @@
 import './Cad.css'
+import { Link } from 'react-router-dom'
 
 function Cad() {
     return (
         <>
-            
+
             <div className="main">
+
                 <div className="mainCadastro">
+
                     <form action="/" method="POST">
                         <div className="cont">
                             <input type="text" id="nome" name="nome" className="input" placeholder="Nome" required />
@@ -48,12 +51,12 @@ function Cad() {
 
                         <div className="buttons">
                             <input type="submit" className="cadButton" value="Cadastre-se" />
-                            <a href="https://ryanvieirarepos.github.io/Makrama/Pages/login/login.html">Já possui uma conta ?</a>
+                            <Link to='/Login'><a>Já possui uma conta ?</a></Link>
                         </div>
                     </form>
                 </div>
             </div>
-            
+
 
 
         </>

@@ -3,6 +3,15 @@
     display: flex;
     justify-content: space-between;
 
+
+}
+
+.line {
+    background-color: white;
+
+    height: 1px;
+    margin-left: 10.5vw;
+    margin-right: 10.5vw;
 }
 
 

@@ -1,17 +1,23 @@
-@media(max-width: 1123px){
-    .cart{
+@media(max-width: 1123px) {
+    .cart {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }.list{
+    }
+
+    .list {
         width: 47vw;
         margin-bottom: 5vw;
         margin-right: 0px;
         align-self: center;
-    }.resume{
+    }
+
+    .resume {
         align-self: center;
-    }.price strong{
+    }
+
+    .price strong {
         padding-right: 20vwvw;
     }
 }
@@ -23,38 +29,39 @@
     margin-left: 10.5vw;
     margin-right: 10.5vw;
     margin-top: 5vw;
-    margin-bottom: 20vw;
+    margin-bottom: 11.4vw;
 
     display: flex;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: center;
-    
+
 }
-   
+
 
 .list {
-   
+
     width: 45vw;
     margin-right: 3vw;
     border-radius: 0.3vw;
     border: white 2px solid;
-    
+
     display: flex;
     flex-direction: column;
 }
 
 
-.header{
-display: flex;
-border-bottom: 1px solid white;
-margin-bottom: 2vw;
-width: 100%;
+.header {
+    display: flex;
+    border-bottom: 1px solid white;
+    margin-bottom: 2vw;
+    width: 100%;
 
 }
+
 .product {
     display: flex;
     flex-direction: column;
-    
+
     width: 30vw;
 }
 
@@ -62,8 +69,8 @@ width: 100%;
     color: white;
     font-size: 1.2rem;
     padding: 0.4vw;
-    
-    
+
+
 
 }
 
@@ -73,17 +80,17 @@ width: 100%;
 .amount {
     display: flex;
     flex-direction: column;
-    
 
-    
+
+
 }
 
 .amount strong {
     color: white;
     font-size: 1.2rem;
     padding: 0.4vw;
-    width:8vw ;
-    
+    width: 8vw;
+
 
 }
 
@@ -98,54 +105,67 @@ width: 100%;
     color: white;
     font-size: 1.2rem;
     padding: 0.4vw;
-    width:2.4vw;
-   
+    width: 2.4vw;
+
 }
 
-.display{
+.display {
     width: 100%;
     display: flex;
-    
-}#a{
-width: 32vw;
-margin-left: 0.3vw;
-}#b{
+
+}
+
+#a {
+    width: 32vw;
+    margin-left: 0.3vw;
+}
+
+#b {
     width: 7.6vw;
 }
 
-.icon{
+.icon {
     margin-left: 1.4vw;
     width: 3vw;
     height: 2vw;
-    
+
     cursor: pointer;
-    
+
     border-radius: 50vw;
-}.BsFillTrashFill :hover{
-  transform: scale(1.1);
 }
 
-.frete{
+.BsFillTrashFill :hover {
+    transform: scale(1.1);
+}
+
+.frete {
     margin-top: 2vw;
-}.frete input{
+}
+
+.frete input {
     background: none;
     border: none;
     border-bottom: 2px solid white;
     caret: white;
     color: white;
-}.frete input::placeholder{
+}
+
+.frete input::placeholder {
     color: white;
-}.frete input:focus{
+}
+
+.frete input:focus {
     border: none;
-    outline:none;
+    outline: none;
     border-bottom: 2px solid white;
 }
-.frete button{
+
+.frete button {
     margin-left: 1vw;
     border-radius: 0.3vw;
     width: 7vw;
     border: 2px solid white;
-    background:none;
+    background: none;
     color: white;
     font-size: 1.2rem;
     font-weight: 600;
@@ -168,19 +188,22 @@ margin-left: 0.3vw;
     align-items: center;
     justify-content: center;
 
-}.resume strong{
+}
+
+.resume strong {
     color: white;
-    
+
 }
 
 
-.title1{
+.title1 {
     border-bottom: 1px solid white;
     width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
 }
+
 .titleStrong {
     color: white;
     font-size: 1.9rem;
@@ -189,44 +212,51 @@ margin-left: 0.3vw;
 }
 
 
-.subTotal{
-display: flex;
-margin-top: 1vw;
-margin-bottom: 1vw;
+.subTotal {
+    display: flex;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
-.subTotal strong{
+
+.subTotal strong {
     font-size: 1.3rem;
     margin-right: 4vw;
-    
+
 }
 
-.total{
- background-color: rgba(209, 166, 106, 0.896);
- width: 100%;
- height: 2vw;
+.total {
+    background-color: rgba(209, 166, 106, 0.896);
+    width: 100%;
+    height: 2vw;
 
- margin-bottom: 1vw;
+    margin-bottom: 1vw;
 
- align-items: center;
- justify-content: center;
- display: flex;
-}.total strong{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.total strong {
     font-size: 1.4rem;
     margin-right: 6vw;
 }
 
-.resumeTotal{
+.resumeTotal {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top:1vw;
-}.resumeTotal strong{
-    font-size: 1.2rem;
-}.discount{
-    margin-bottom:2vw;
+    margin-top: 1vw;
 }
 
-.button{
+.resumeTotal strong {
+    font-size: 1.2rem;
+}
+
+.discount {
+    margin-bottom: 2vw;
+}
+
+.button {
     margin-top: 0.3vw;
     background-color: white;
     height: 3vw;
@@ -234,8 +264,11 @@ margin-bottom: 1vw;
     display: flex;
     align-items: center;
     justify-content: center;
-cursor: pointer;
+    cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}.button strong{
+}
+
+.button strong {
     margin-left: 0.3vw;
+    color: rgba(195, 151, 90, 0.896);
 }
