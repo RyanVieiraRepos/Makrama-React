@@ -1,4 +1,4 @@
-import './SobMedida.css'
+import './Sobre.css'
 
 
 

@@ -10,9 +10,9 @@ function Header() {
                 <a className="logo" href='/'>Makrama</a>
 
                 <div className="navContainer">
-                    <a className="nav" href="/">Home</a>
-                    <a className="nav" href="Produtos">Produtos</a>
-                    <a className="nav" href="SobMedida">Sob medida</a>
+                    <Link to="Home"className="nav" >Home</Link>
+                    <Link to="Produtos" className="nav">Produtos</Link>
+                    <Link to="Sobre"className="nav" >Sobre</Link>
                 </div>
 
                 <div className="loginNcart">

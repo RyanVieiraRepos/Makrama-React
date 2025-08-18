@@ -1,0 +1,81 @@
+@media(max-width:1300){
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.global{
+    flex-direction: column;
+}
+}
+
+.global {
+    margin-left: 10.5vw;
+    margin-right: 10.5vw;
+    margin-bottom: 1vw;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    
+    display: flex;
+    flex-direction: unset;
+    
+}
+
+.image{
+    width: clamp(600px,26vw,1000px);
+    height: clamp(500px,30vw,1000px);
+    border-radius: 0.4vw;
+    background-color: rgb(243, 243, 243);
+}.image img{
+ width: 100%;
+ height: auto;
+}
+
+
+.info{
+    margin-left: 1.4vw;
+    display: flex;
+    flex-direction: column;
+}
+.infoTitle{
+    color: white;
+    font-size: 4rem;
+    font-family: Merriwheater;
+    font-weight: 1200;
+}.infoDesc{
+    color: rgba(255, 252, 247, 0.896);
+    font-size: 2rem;
+    font-family: Merriwheater;
+}.infoPrice{
+    margin-top: 3vw;
+    font-size: 2.3rem;
+    font-family: Merriwheater;
+    color: white;
+    font-weight: 1200;
+}
+
+.info button{
+    width: clamp(400px,26vw,900px);
+    height: clamp(100px,5vw,100px);
+    margin-top: 3vw;
+
+    background-color:white ;
+    border: none;
+    border-radius: 0.8vw;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+    color: rgba(195, 151, 90, 0.896);
+    font-size: 2rem;
+    font-family: Merriwheater;
+    font-weight: 900;
+    transition: 0.1s;
+}.info button:hover{
+    transform: scale(1.03);
+}
