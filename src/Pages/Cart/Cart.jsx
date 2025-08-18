@@ -1,6 +1,6 @@
 import './Cart.css'
 import { BsCartCheck, BsTruck, BsFillTrashFill } from "react-icons/bs";
-import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 
 
