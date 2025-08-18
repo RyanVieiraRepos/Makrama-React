@@ -1,0 +1,10 @@
+.nopageCont{
+    height: 37.3vw;
+    display: flex;
+    justify-content: center;
+    
+}.nopageCont strong{
+    margin-top: 10vw;
+    font-size: 3rem;
+    color: white;
+}

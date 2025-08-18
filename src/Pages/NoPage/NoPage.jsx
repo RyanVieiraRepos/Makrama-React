@@ -7,7 +7,11 @@ function NoPage() {
     return (
 
         <>
-            
+            <div className='nopageCont'>
+                   <strong>
+                    Página não Encontrada!
+                   </strong>
+            </div>
         </>
     )
 }

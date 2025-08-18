@@ -19,7 +19,7 @@
     padding-top: 1vw;
     padding-bottom: 2vw;
     border-radius: 1vw;
-    margin-bottom: 8.5vw;
+    margin-bottom: 10vw;
 
 
 
@@ -163,10 +163,12 @@
     height: 4vh;
     width: 100%;
 
-    transition: 0.3s all;
+    transition: 0.1s all;
     cursor: pointer;
     font-size: 1.2rem;
 
+}.cadButton:hover{
+    transform: scale(1.03);
 }
 
 .cadButton::placeholder {

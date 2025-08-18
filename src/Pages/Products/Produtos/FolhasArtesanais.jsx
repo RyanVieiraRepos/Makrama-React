@@ -11,7 +11,7 @@ function FolhasArtesanais() {
 
 
                     <div className='image'>
-                        <img src='public/produtos/enfeite1.jpeg' />
+                        <img src='http://ryanvieirarepos.github.io/Makrama/images/makramaReact/enfeite1.jpeg' alt='Imagem Não Carregada' />
                     </div>
 
 
@@ -35,6 +35,7 @@ function FolhasArtesanais() {
                 </div>
 
             </div>
+            
         </>
     )
 }
