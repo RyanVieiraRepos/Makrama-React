@@ -40,7 +40,7 @@ function Home() {
                         detalhe, valorizando o feito à mão e conectando o lar com a beleza do artesanal.
                     </strong>
 
-                    <a className="homeButton" id="button" href='./Produtos'>
+                    <a className="homeButton" id="button" href='Produtos'>
                         Navegar
                     </a>
                 </div>
